@@ -3,37 +3,91 @@ body {
     height: 100%;
     margin: 0%;
     padding: 0%;
-   
+
 }
-.btn{
-    background-color: black;
+
+.btn {
+    background-color: rgb(50, 93, 211);
     color: aliceblue;
-    border: solid green 2px;
+    border: solid rgb(209, 195, 0) 2px;
     padding: 9px;
     margin-top: 8px;
     border-radius: 15px;
 }
-.main{
+
+.main {
     width: 100%;
     height: 100vh;
-    background-color: black;
+    background-color: rgb(109, 154, 238);
     color: aliceblue;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-.local{
-    background-color: rgb(115, 115, 209);
+
+input {
+    padding: 15px;
+    border-radius: 10px;
+    border: solid yellow;
+}
+
+.local {
+    background-color: rgb(2, 2, 41);
     height: 60vh;
     width: 30%;
-    border: solid green 5px;
+    border: solid rgb(255, 177, 8) 5px;
     border-radius: 20px;
     padding: 30ox;
 
 
 }
-.img{
+
+.img {
     width: 200px;
     height: 20vh;
+    border-radius: 20px;
+    border: solid yellow;
+}
+
+@media screen and (max-width: 600px) {
+    .btn {
+        background-color: rgb(0, 0, 0);
+        color: aliceblue;
+        border: solid rgb(62, 9, 255) 2px;
+        padding: 5px;
+        margin-top: 5px;
+        border-radius: 8px;
+    }
+
+    .main {
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(209, 95, 95);
+        color: aliceblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .local {
+        background-color: rgb(16, 16, 235);
+        height: 40vh;
+        width: 25%;
+        border: solid rgb(255, 23, 131) 5px;
+        border-radius: 20px;
+        padding: 15ox;
+
+
+    }
+
+    .img {
+        width: 100px;
+        height: 10vh;
+    }
+
+    .h1 {
+        font-weight: 200;
+    }
 }
